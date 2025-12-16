@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="calculator">
+
+        <div class="inputBox">
+            <input class="input" type="text" id="numberInput" placeholder="Enter a number">
+        </div>
+
+        <div class="values-operators">
+
+            <div class="values-operators1">
+
+                <div class="operators1">
+                    <button class="paren">(</button>
+                    <button class="paren">)</button>
+                    <button id="modButton">%</button>
+                </div>
+        
+                <div class="values">
+                    <button class="number-button">9</button>
+                    <button class="number-button">8</button>
+                    <button class="number-button">7</button>
+                    <button class="number-button">6</button>
+                    <button class="number-button">5</button>
+                    <button class="number-button">4</button>
+                    <button class="number-button">3</button>
+                    <button class="number-button">2</button>
+                    <button class="number-button">1</button>
+                    <button class="number-button">0</button>
+                    <h1 id="result"></h1>
+                </div>
+            </div>
+
+            <div class="operators-border">
+                <div class="operators">
+                    <button id="addButton">+</button>
+                    <button id="subButton">-</button>
+                    <button id="multiplyButton">x</button>
+                    <button id="divideButton">/</button>
+                    <button id="submitButton">=</button>
+                </div> 
+            </div>
+        </div>
+        <button id="resetButton">Reset</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
